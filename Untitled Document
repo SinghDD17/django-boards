@@ -1,0 +1,3 @@
+SECRET_KEY = ')8u+0omw1-z25wd@r(4i^+_x2b87pl66=k07r&nhht%xd8-ci+'
+DEBUG=True
+ALLOWED_HOSTS=.localhost,127.0.0.1
