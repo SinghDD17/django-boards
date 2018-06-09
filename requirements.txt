@@ -5,5 +5,5 @@ Markdown==2.6.11
 python-decouple==3.1
 pytz==2018.3
 whitenoise==3.3.1
-gunicorn==19.7.1
+gunicorn==19.8.1 
 bootcamp
