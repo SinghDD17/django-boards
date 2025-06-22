@@ -68,4 +68,5 @@ class Post(models.Model):
         return truncated_message.chars(30)
         
     def get_message_as_markdown(self):
-        return mark_safe(markdown(self.message, safe_mode='escape'))
+        # Note: 'safe_mode' is removed in markdown >=3.0. Use 'bleach' for sanitizing if needed.
+        return mark_safe(markdown(self.message))
