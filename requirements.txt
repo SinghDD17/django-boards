@@ -1,9 +1,8 @@
-dj-database-url==0.5.0
-Django==2.0.3
-django-widget-tweaks==1.4.2
-Markdown==2.6.11
-python-decouple==3.1
-pytz==2018.3
-whitenoise==3.3.1
-gunicorn==19.8.1 
-bootcamp
+dj-database-url==3.0.0
+Django==5.2.3
+django-widget-tweaks==1.5.0
+Markdown==3.8.2
+python-decouple==3.8
+pytz==2025.2
+whitenoise==6.9.0
+gunicorn==23.0.0
